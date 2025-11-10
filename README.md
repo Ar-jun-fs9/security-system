@@ -1,16 +1,15 @@
 # 🛡️ SecureSystem - Enterprise Security Management System
 
 <div align="center">
+<a name="top"></a>
+  
+**A comprehensive, enterprise-grade security management system built with modern web technologies.**
 
 [![Version](https://img.shields.io/badge/version-1.0.0-green?style=flat-square)](https://github.com/Ar-jun-fs9/security-system/releases)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-18+-green?style=flat-square&logo=node.js)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/React-19+-blue?style=flat-square&logo=react)](https://reactjs.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13+-blue?style=flat-square&logo=postgresql)](https://www.postgresql.org/)
-
-**A comprehensive, enterprise-grade security management system built with modern web technologies.**
-
-[🚀 Live Demo](#) • [📖 Documentation](#) • [🐛 Report Bug](https://github.com/yourusername/security-system/issues) • [✨ Request Feature](https://github.com/yourusername/security-system/issues)
 
 </div>
 
@@ -351,7 +350,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 **Made with ❤️ by Arjun**
 
 ⭐ Star this repo if you found it helpful!
-
-[⬆️ Back to Top](#-securesys---enterprise-security-management-system)
+   
+  **[⬆ Back to Top](#top)**
 
 </div>
