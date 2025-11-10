@@ -14,7 +14,7 @@
 
 </div>
 
-## few Screenshot
+## few Screenshots
 ![website homepage](assets/security_homepage.png)
 ![website login](assets/login.png)
 ![website register](assets/register.png)
