@@ -1,0 +1,183 @@
+.audit-log-page {
+    padding: 2rem;
+    background-color: #f8f9fa;
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.audit-log-page .container-fluid {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    min-height: calc(100vh - 4rem);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.audit-log-page h2 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.audit-log-page .table {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.audit-log-page .table th {
+    font-weight: 600;
+    background-color: #f8f9fa;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.audit-log-page .badge {
+    font-weight: 500;
+    padding: 0.5em 0.8em;
+}
+
+.audit-log-page .form-select,
+.audit-log-page .form-control {
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+}
+
+/* Pagination Styles */
+.pagination-container {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid #dee2e6;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.pagination-container .form-select {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    position: relative;
+    z-index: 1;
+}
+
+.pagination-container .form-select:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    z-index: 2;
+}
+
+/* Fix dropdown overlapping */
+.pagination-container .form-select option {
+    background-color: white;
+    color: #333;
+    padding: 0.5rem;
+}
+
+.pagination-container .form-select:focus option:hover {
+    background-color: #f8f9fa;
+}
+
+/* Ensure dropdown appears above other elements */
+.pagination-container .form-select {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m1 6 7 7 7-7'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    padding-right: 1.9rem;
+}
+
+/* Improve pagination button spacing */
+.pagination .page-link {
+    min-width: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.pagination .page-link:not(:disabled):hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.audit-log-page .btn-outline-primary {
+    border-color: #0d6efd;
+    color: #0d6efd;
+    transition: all 0.3s ease;
+}
+
+.audit-log-page .btn-outline-primary:hover:not(:disabled) {
+    background-color: #0d6efd;
+    color: white;
+    transform: translateY(-1px);
+}
+
+.audit-log-page .btn-outline-primary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.audit-log-page .btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.audit-log-page .btn-primary:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    transform: translateY(-1px);
+}
+
+.audit-log-page .btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.audit-log-page .btn-secondary:hover {
+    background-color: #5a6268;
+    transform: translateY(-1px);
+}
+
+.audit-log-page .spinner-border {
+    width: 3rem;
+    height: 3rem;
+    color: #007bff;
+}
+
+/* Make table responsive */
+.audit-log-page .table-responsive {
+    max-height: calc(100vh - 300px);
+    overflow-y: auto;
+}
+
+/* Ensure filters stay at top */
+.audit-log-page .filters-section {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+    padding: 1rem 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Ensure header stays at top */
+.audit-log-page .header-section {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 2;
+    padding: 1rem 0;
+    border-bottom: 1px solid #dee2e6;
+}
